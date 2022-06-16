@@ -6,8 +6,8 @@
 }
 
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Open Sans', sans-serif;
 }

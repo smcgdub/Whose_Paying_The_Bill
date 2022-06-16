@@ -34,8 +34,8 @@
       <div class="col">
         <div class="input-group mb-3">
           <!-- Names input field -->
-          <input id="names" type="text" class="form-control" placeholder="Enter names for draw" aria-label="Username"
-            aria-describedby="basic-addon1">
+          <input id="names" type="text" class="form-control" placeholder="Enter names for draw" aria-label="Names"
+            aria-describedby="basic-addon1" required>
         </div>
       </div>
     </div>
@@ -43,13 +43,16 @@
     <!-- Action Buttons -->
     <div class="row">
       <div class="col">
+        <!-- Add names to draw -->
         <button id="btn" class="btn btn-success" onclick="addTo()">Add names to draw</button>
-        <button id="reset_button" class="btn btn-danger" onclick="reloadPage()">Reset</button>
+        <!-- Reset the page -->
+        <button id="reset_button" class="btn btn-danger" onclick="reloadPage()">Reset the machine</button>
       </div>
     </div>
 
     <div class="row">
       <div class="col">
+        <br>
         <!-- Result displayed -->
         <p id="who_is_paying"></p>
       </div>
