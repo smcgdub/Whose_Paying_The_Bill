@@ -1,10 +1,10 @@
-![Homepage displayed on multiple devices]()
+![Homepage displayed on multiple devices](assets/images/readme_images/am_i_responsive_image.png)
 
 # **Whose Paying The Bill?**
 
 ## **Introduction**
 
-A just for fun mini JavaScript project where users who have been for dinner, drinks, or both, to play a game of chance and see whose going to pay the bill for everyone.
+Whose paying the bill is a just for fun mini JavaScript project where users who have been for dinner, drinks, or both, can play a game of chance and see whose going to pay the bill for everyone.
 
 ## **Table of contents** 
 
@@ -63,7 +63,7 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 <hr>
 
 <details>
-<summary><strong>1.User Experience (UX)</strong></summary>
+<summary><strong>1. User Experience (UX)</strong></summary>
 <br/>
 
 #### **1.1 Target Audience**
@@ -85,7 +85,7 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 
 #### **1.5 Design choices** 
 
-* I kept this project nice and simple, to give it a more pleasing aesthetic i added some animation and a little bit of color. The project is a simple game of chance so no need to over complicate it. 
+* I kept this project nice and simple, there is a background image with a user input and 2 action buttons for the user to interact with. I have also added a little bit of fade in animation to the project to give it a more pleasing aesthetic. 
 
 #### **FONTS**
 
@@ -99,11 +99,9 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 
 #### **COLORS**
 
-* The main color pallet for the project can be found below.<br>
+* The color pallet for the project is very simple and only made up of 3 colors. The color pallette can be found below.<br>
 
-![Image of the color pallet used for the project]()
-
-<!-- * I kept the colour palette simple, a white background with black text. The icons are all cartoon type and coloured. The user inputs have been coloured in a beige colour and the output fields have been coloured in grey so they user can see at a glance these are not adjustable. The action button to calculate the bill is the  standard bootstrap success green. The reset calculator button is plain black.  -->
+![Image of the color pallet used for the project](assets/images/readme_images/whose_paying_the_bill_colors.png)
 
 #### **1.6 Wire Frames** 
 
@@ -130,31 +128,39 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 
 * The user only has 1x input field to interact with. The user will enter all the names of the people who have entered the game separated by a comma. 
 
-`<input id="names" type="text" class="form-control" placeholder="Enter names" aria-label="names" aria-describedby="basic-addon1">`
+`<input id="names" type="text" class="form-control" placeholder="Enter names here" aria-label="Names" aria-describedby="basic-addon1" required>`
 
 * Once all the names have been entered the user presses the add names to draw button and the JavaScript will then randomly draw and display the name fo the person who is paying the bill. 
 
-![Image of user inputs]()
+![Image of user inputs](assets/images/readme_images/user_input.png)
 
 #### **2.2 Action Buttons**
 
-* There are 2 buttons for the user to interact with. Once the user has entered the names of everyone in the draw they will press the add names to draw button.
+* There are 2 buttons for the user to interact with. The "Add names to draw" button and the "Reset the machine" button. Once a user has entered the names of everyone in the draw they will press the "Add names to draw" button.
 
-* The second button will reset the game and the user can begin again from scratch. 
+`<button id="btn" class="btn add_names_to_draw_btn" onclick="addTo()">Add names to draw</button>`
 
-![Image of action buttons]()
+* This button has an `onclick="addTo()"` function linked to it that is the JavaScript logic that will carry out the draw
+
+* The second button "Reset the machine" will reset the game and the user can begin again from scratch. 
+
+`<button id="reset_button" class="btn btn-danger" onclick="reloadPage()">Reset the machine</button>`
+
+* This button has an `onclick="reloadPage()"` function linked to it that will reload the page so the user can start again from scratch. 
+
+![Image of action buttons](assets/images/readme_images/action_buttons.png)
 
 #### **2.3 Result**
 
-* The result of who is going to pay the bill is displayed to the user
+* The result of who is going to pay the bill is displayed to the user in a `<h2>` element. That `<h2>` element is left blank and its content is generated and displayed when the user adds the names and completes the draw. There is also a cheeky message saying better luck next time. 
 
-![Image of result]()
+![Image of result](assets/images/readme_images/draw_result.png)
 
 #### **2.4 Footer**
 
-![Image of footer]()
-
 * The footer contains the basic information on the site and the copyright.
+
+![Image of footer](assets/images/readme_images/footer.png)
 
 #### **2.5 Features Left To Implement**
 
@@ -168,13 +174,13 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 <br/>
 
 3.1 [VSCode](https://code.visualstudio.com/) - Is the IDE i used for this project<br>
-3.2 [HTML5 - Hypertext Markup Language](https://html.com/html5/#What_is_HTML) - This is the markup language i used for this project.<br>
-3.3 [CSS - Cascading Style Sheet](https://en.wikipedia.org/wiki/CSS) - I used CSS to help alter and adjust the presentation of the website to create a pleasant user experience.<br>
+3.2 [HTML5](https://html.com/html5/#What_is_HTML) - This is the markup language i used for this project.<br>
+3.3 [CSS](https://en.wikipedia.org/wiki/CSS) - I used CSS to help alter and adjust the presentation of the website to create a pleasant user experience.<br>
 3.4 [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript was used to do the mathematics to give the user the full breakdown<br>
 3.5 [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
 3.6 [Google fonts](https://fonts.google.com/) - Launched in 2010 Google Fonts is a library of 1,023 free licensed font families.<br>
 3.7 [Icons8](https://icons8.com/) - You can see a short YouTube video about Icons8 by clicking [Here](https://www.youtube.com/watch?v=C4TcBmdaa-Q&t=40s).<br>
-3.8 [Balsamiq](https://balsamiq.com/)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.
+3.8 [Balsamiq](https://balsamiq.com/)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.<br>
 3.9 [Animate.css](https://animate.style/) - Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.<br>
 3.10 [favicon.io](https://favicon.io/) - Favicon.io is the free favicon generator i used for the project
 </details>
@@ -182,7 +188,7 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 <hr>
 
 <details>
-<summary><strong>4.Testing</strong></summary>
+<summary><strong>4. Testing</strong></summary>
 <br>
 
 * Testing information can be found in the [testing.md](testing.md) file
@@ -190,7 +196,7 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 <hr>
 
 <details>
-<summary><strong>5.Deployment</strong></summary>
+<summary><strong>5. Deployment</strong></summary>
 <br>
 
 #### **5.1 Deployment**  
@@ -253,7 +259,7 @@ You can also clone the project using Github Desktop. To do this you can do the f
 <hr>
 
 <details>
-<summary><strong>6.Credits</strong></summary> 
+<summary><strong>6. Credits</strong></summary> 
 <br>
 
 #### **6.1 Media** 
@@ -265,13 +271,11 @@ You can also clone the project using Github Desktop. To do this you can do the f
 
 * All of the code in the project i have written myself 
 
-#### **6.3 Acknowledgements**
-
 </details>
 <hr>
 
 <details>
-<summary><strong>7.Contact</strong></summary>
+<summary><strong>7. Contact</strong></summary>
 <br>
 
 Feel free to contact me on any of the following channels:<br>
