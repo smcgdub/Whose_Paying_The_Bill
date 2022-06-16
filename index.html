@@ -21,47 +21,76 @@
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar bg-light">
+  <!-- <nav class="navbar">
     <div class="container-fluid">
       <a class="navbar-brand mx-auto" href="index.html"><span> Whose Paying The Bill</span>
       </a>
     </div>
-  </nav>
+  </nav> -->
 
   <!-- User Input Section -->
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <label for="names" class="fst-italic">Enter the names of each person separated by a comma like this: John,
-          Jane, Ian, Mary</label>
-        <div class="input-group mb-3">
-          <!-- Names input field -->
-          <input id="names" type="text" class="form-control" placeholder="Enter names for draw" aria-label="Names"
-            aria-describedby="basic-addon1" required>
+  <section id="background_image">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="input-group mb-3">
+            <!-- Names input field -->
+            <input id="names" type="text" class="form-control" placeholder="Enter names for draw" aria-label="Names"
+              aria-describedby="basic-addon1" required>
+          </div>
+          <label for="names" class="fst-italic text-white mb-2">Enter the names of each person separated by a comma like
+            this: John, Jane, Ian, Mary</label>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="row">
+        <div class="col">
+          <!-- Add names to draw -->
+          <button id="btn" class="btn btn-success" onclick="addTo()">Add names to draw</button>
+          <!-- Reset the page -->
+          <button id="reset_button" class="btn btn-danger" onclick="reloadPage()">Reset the machine</button>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <div class="col">
+          <!-- Result displayed -->
+          <p id="who_is_paying"></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <!-- Website developed by -->
+          <p class="mb-0 mt-1">- Website developed By <a href="https://stephens-portfolio.com/"
+              class="text-decoration-none" target="_blank">Stephen Mc Govern</a> -
+          </p>
+          <!-- Copyright -->
+          <p class="footer-text mb-0">- Copyright© 2022 | All rights reserved -</p>
+          <!-- View my portfolio & github -->
+          <p class="mb-2">
+            <a href="https://stephens-portfolio.com/" class="text-decoration-none github_link" target="_blank">-
+              View my portfolio
+              <i class="fas fa-globe"></i> |
+            </a>
+            <a href="https://github.com/smcgdub" class="text-decoration-none github_link" target="_blank"> View my
+              Github <i class="fab fa-github"></i> -
+            </a>
+          </p>
         </div>
       </div>
     </div>
+  </section>
 
-    <!-- Action Buttons -->
-    <div class="row">
-      <div class="col">
-        <!-- Add names to draw -->
-        <button id="btn" class="btn btn-success" onclick="addTo()">Add names to draw</button>
-        <!-- Reset the page -->
-        <button id="reset_button" class="btn btn-danger" onclick="reloadPage()">Reset the machine</button>
-      </div>
-    </div>
-
-    <br>
-
-    <div class="row">
-      <div class="col">
-        <!-- Result displayed -->
-        <p id="who_is_paying"></p>
-      </div>
-    </div>
-
-  </div>
   <!-- Optional JavaScript; choose one of the two! -->
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
