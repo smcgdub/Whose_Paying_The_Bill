@@ -21,7 +21,7 @@ a:hover {
 }
 
 #background_image {
-  background-image: url('https://images.unsplash.com/photo-1545255089-5e16567fa40e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80');
+  background-image: url('https://images.unsplash.com/photo-1516486392848-8b67ef89f113?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
   height: 100vh;
   display: flex;
   align-items: center;
@@ -34,4 +34,18 @@ a:hover {
 
 input#names {
   border-radius: 0px;
+}
+
+button {
+  margin: 0px 0px 7px 0px;
+  border-radius: 0px !important;
+}
+
+.add_names_to_draw_btn {
+  background-color: #fff
+}
+
+.add_names_to_draw_btn:hover {
+  background-color: #000;
+  color: #fff;
 }

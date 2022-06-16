@@ -38,7 +38,7 @@
             <input id="names" type="text" class="form-control" placeholder="Enter names for draw" aria-label="Names"
               aria-describedby="basic-addon1" required>
           </div>
-          <label for="names" class="fst-italic text-white mb-2">Enter the names of each person separated by a comma like
+          <label for="names" class="fst-italic text-white mb-3">Enter the names of each person separated by a comma like
             this: John, Jane, Ian, Mary</label>
         </div>
       </div>
@@ -47,7 +47,7 @@
       <div class="row">
         <div class="col">
           <!-- Add names to draw -->
-          <button id="btn" class="btn btn-success" onclick="addTo()">Add names to draw</button>
+          <button id="btn" class="btn add_names_to_draw_btn" onclick="addTo()">Add names to draw</button>
           <!-- Reset the page -->
           <button id="reset_button" class="btn btn-danger" onclick="reloadPage()">Reset the machine</button>
         </div>
@@ -58,7 +58,7 @@
       <div class="row">
         <div class="col">
           <!-- Result displayed -->
-          <p id="who_is_paying"></p>
+          <p id="who_is_paying" class="mb-0 text-white"></p>
         </div>
       </div>
 
