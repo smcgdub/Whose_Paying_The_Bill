@@ -20,6 +20,12 @@ a:hover {
   color: black;
 }
 
+/* Animation effects */
+:root {
+  --animate-duration: 6s;
+  --animate-delay: 0.9s;
+}
+
 #background_image {
   background-image: url('https://images.unsplash.com/photo-1516486392848-8b67ef89f113?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
   height: 100vh;
@@ -37,7 +43,7 @@ input#names {
 }
 
 button {
-  margin: 0px 0px 7px 0px;
+  margin: 0px 7px 7px 0px;
   border-radius: 0px !important;
 }
 

@@ -14,28 +14,23 @@
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- External Css -->
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 <body>
 
-  <!-- Navbar -->
-  <!-- <nav class="navbar">
-    <div class="container-fluid">
-      <a class="navbar-brand mx-auto" href="index.html"><span> Whose Paying The Bill</span>
-      </a>
-    </div>
-  </nav> -->
-
   <!-- User Input Section -->
   <section id="background_image">
-    <div class="container">
+    <div class="container animate__animated animate__fadeIn">
       <div class="row">
         <div class="col">
+          <h1 class="text-white mb-3">Whose Paying The Bill</h1>
           <div class="input-group mb-3">
             <!-- Names input field -->
-            <input id="names" type="text" class="form-control" placeholder="Enter names for draw" aria-label="Names"
+            <input id="names" type="text" class="form-control" placeholder="Enter names here" aria-label="Names"
               aria-describedby="basic-addon1" required>
           </div>
           <label for="names" class="fst-italic text-white mb-3">Enter the names of each person separated by a comma like
@@ -58,7 +53,7 @@
       <div class="row">
         <div class="col">
           <!-- Result displayed -->
-          <p id="who_is_paying" class="mb-0 text-white"></p>
+          <h2 id="who_is_paying" class="mb-0 text-white"></h2>
         </div>
       </div>
 
