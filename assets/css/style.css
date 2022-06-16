@@ -25,7 +25,7 @@ a:hover {
 }
 
 #background_image {
-  background-image: url(assets/images/coffee_background_image.jpg);
+  background-image: url(../images/coffee_background_image.jpg);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -54,7 +54,7 @@ button {
 }
 
 #section2 {
-  background-image: url(assets/images/test.jpg);
+  background-image: url(../images/test.jpg);
   height: 100vh;
   display: flex;
   align-items: center;
