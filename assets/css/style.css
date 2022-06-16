@@ -27,7 +27,7 @@ a:hover {
 }
 
 #background_image {
-  background-image: url(/assets/images/coffee_background_image.jpg);
+  background-image: url('/assets/images/coffee_background_image.jpg');
   height: 100vh;
   display: flex;
   align-items: center;
@@ -54,4 +54,16 @@ button {
 .add_names_to_draw_btn:hover {
   background-color: #000;
   color: #fff;
+}
+
+#section2 {
+  background-image: url('/assets/images/test.jpg');
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-top: 80px; */
 }
