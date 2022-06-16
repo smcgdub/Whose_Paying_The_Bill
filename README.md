@@ -89,9 +89,9 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 
 #### **FONTS**
 
-* I decided i would use the Google fonts [Indie Flower](https://fonts.google.com/specimen/Indie+Flower?preview.text=whose%20paying%20the%20bill&preview.text_type=custom) This handwriting font feels carefree and open with the bubbly, rounded edges. 
+* I decided i would use the Google fonts [Open Sans](https://fonts.google.com/specimen/Open+Sans?preview.text=Whose%20paying%20the%20bill&preview.text_type=custom). Open Sans is a humanist sans serif typeface designed by Steve Matteson. Open Sans was designed with an upright stress, open forms and a neutral, yet friendly appearance. It was optimized for print, web, and mobile interfaces, and has excellent legibility characteristics in its letterforms.
 
-![Image of how the font will look](./assets/images/readme_images/font_example.png)
+![Image of how the font will look](./assets/images/readme_images/whose_paying_the_bill_font.png)
 
 #### **ICONS**
 
@@ -126,13 +126,7 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 <summary><strong>2. Features</strong></summary>
 <br/>
 
-#### **2.1 The Navbar**
-
-![Image of Navbar]()
-
-* The Navbar is a very basic bootstrap Navbar that just holds the project logo and the name of the site which is Whose Paying The Bill. The logo and the site name will always stay centered. As the site is just a single page there is no need for a mobile hamburger menu
-
-#### **2.2 User Inputs** 
+#### **2.1 User Inputs** 
 
 * The user only has 1x input field to interact with. The user will enter all the names of the people who have entered the game separated by a comma. 
 
@@ -142,7 +136,7 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 
 ![Image of user inputs]()
 
-#### **2.3 Action Buttons**
+#### **2.2 Action Buttons**
 
 * There are 2 buttons for the user to interact with. Once the user has entered the names of everyone in the draw they will press the add names to draw button.
 
@@ -150,19 +144,19 @@ A just for fun mini JavaScript project where users who have been for dinner, dri
 
 ![Image of action buttons]()
 
-#### **2.4 Result**
+#### **2.3 Result**
 
 * The result of who is going to pay the bill is displayed to the user
 
 ![Image of result]()
 
-#### **2.5 Footer**
+#### **2.4 Footer**
 
 ![Image of footer]()
 
 * The footer contains the basic information on the site and the copyright.
 
-#### **2.6 Features Left To Implement**
+#### **2.5 Features Left To Implement**
 
 * I may add a feature where people can add dinner and drinks separate. Depending on the restaurant sometimes the drinks bill can be more then the meal. So i may add a feature for a 2nd draw where food and drinks can be split into 2 separate draws. 
 </details>
@@ -206,16 +200,16 @@ To deploy the site on Github i undertook the following steps:
 1. Navigated to my profile page on Github
 2. Selected this project from the repositories
 3. Clicked on settings
-4. Scroll down to the Github pages section 
+4. Click on pages which is on the left which is in the code and automation section
 5. Click where is says source and in the dropdown menu select master 
 6. Click on the next dropdown menu to the right select /(root)
 7. Click save
 
 You will then receive a confirmation saying the page has been published and also be provided with the link where people can view your site.
 
-![Image of page published confirmation](assets/images/page_published.png)
+![Image of page published confirmation](./assets/images/readme_images/page_published_confirmation.png)
 
-The link to view the live site can be found by clicking [Here](https://smcgdub.github.io/JS-Tip-Calculator/)
+The link to view the live site can be found by clicking [Here](https://smcgdub.github.io/Whose_Paying_The_Bill/)
 
 #### **5.2 Cloning**
 
@@ -223,7 +217,7 @@ You can clone the projects repository to your local computer by following the st
 
 Cloning a repository using the command line
 
-1. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/JS-Tip-Calculator
+1. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Whose_Paying_The_Bill
 2. Click on the tab that says < >code 
 3. Above the files, click the button that says &#8595;code
 
@@ -244,7 +238,7 @@ You can also clone the project using Github Desktop. To do this you can do the f
 
 1. Download Github Desktop if you do not already have it installed. The link can be found here [Github Desktop](https://desktop.github.com/)
 2. Sign in to GitHub and GitHub Desktop before you start to clone.
-3. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/JS-Tip-Calculator-
+3. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Whose_Paying_The_Bill
 4. Click on the tab that says <details >code 
 5. Above the files, click the button that says &#8595;code
 
@@ -265,6 +259,7 @@ You can also clone the project using Github Desktop. To do this you can do the f
 #### **6.1 Media** 
 
  * Some of the icons i used for the project were from Icons8. All credit for these icons goes to [Icons8](https://icons8.com/)
+* Background image on the homepage credit goes to [Steve Harvey](https://unsplash.com/@trommelkopf) Link to the image can be found [Here](https://unsplash.com/photos/U4wcrDteZ2Y)
 
 #### **6.2 Code** 
 
