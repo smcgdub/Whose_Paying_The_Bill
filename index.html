@@ -20,6 +20,7 @@
 
 <body>
 
+  <!-- Navbar -->
   <nav class="navbar bg-light">
     <div class="container-fluid">
       <a class="navbar-brand mx-auto" href="index.html"><span> Whose Paying The Bill</span>
@@ -27,6 +28,34 @@
     </div>
   </nav>
 
+  <!-- User Input Section -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="input-group mb-3">
+          <!-- Names input field -->
+          <input id="names" type="text" class="form-control" placeholder="Enter names for draw" aria-label="Username"
+            aria-describedby="basic-addon1">
+        </div>
+      </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="row">
+      <div class="col">
+        <button id="btn" class="btn btn-success" onclick="addTo()">Add names to draw</button>
+        <button id="reset_button" class="btn btn-danger" onclick="reloadPage()">Reset</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <!-- Result displayed -->
+        <p id="who_is_paying"></p>
+      </div>
+    </div>
+
+  </div>
   <!-- Optional JavaScript; choose one of the two! -->
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
