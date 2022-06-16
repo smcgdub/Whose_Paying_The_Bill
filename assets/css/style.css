@@ -27,7 +27,7 @@ a:hover {
 }
 
 #background_image {
-  background-image: url('/assets/images/coffee_background_image.jpg');
+  background-image: url('/assets/images/coffee_background_image.jpg')!important;
   height: 100vh;
   display: flex;
   align-items: center;
