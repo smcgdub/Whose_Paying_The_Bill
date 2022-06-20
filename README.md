@@ -95,7 +95,7 @@ Whose paying the bill is a just for fun mini JavaScript project where users who 
 
 #### **ICONS**
 
-* I decided i would use [Icons8](https://icons8.com/) icons and also some icons from [Font Awesome](https://fontawesome.com/) for the project. 
+* There was no need for any icons to be used in this project as its a very simple one.  
 
 #### **COLORS**
 
@@ -108,13 +108,13 @@ Whose paying the bill is a just for fun mini JavaScript project where users who 
 * The wireframes for the project can be seen below. There is a wireframe for desktop, tablet and mobile.
 
 #### **DESKTOP**
-![Desktop Wireframe]()
+![Desktop Wireframe](assets/images/Wireframes/whose_paying_the_bill_desktop.png)
 
 #### **TABLET**
-![Tablet Wireframe]()
+![Tablet Wireframe](assets/images/Wireframes/whose_paying_the_bill_tablet.png)
 
 #### **MOBILE**
-![Image of Navbar]()
+![Image of Navbar](assets/images/Wireframes/whose_paying_the_bill_mobile.png)
 
 </details>
 
