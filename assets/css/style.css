@@ -1,10 +1,11 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* Global */
 * {
   margin: 0;
   padding: 0;
 }
-
-/* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -24,6 +25,7 @@ a:hover {
   --animate-delay: 0.9s;
 }
 
+/* Main background image */
 #background_image {
   background-image: url(../images/coffee_background_image.jpg);
   height: 100vh;
@@ -35,6 +37,7 @@ a:hover {
   background-size: cover;
 }
 
+/* Input & Action buttons */
 input#names {
   border-radius: 0px;
 }
@@ -53,6 +56,7 @@ button {
   color: #fff;
 }
 
+/* Footer */
 section#footer {
   background-color: black;
 }
