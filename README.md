@@ -46,7 +46,6 @@ Whose paying the bill is a just for fun mini JavaScript project where users who 
 ### **6. Credits**
   * 6.1 Media
   * 6.2 Code
-  * 6.3 Acknowledgements
 
 ### **7. Contact**
   * 7.1 LinkedIn
@@ -126,7 +125,7 @@ Whose paying the bill is a just for fun mini JavaScript project where users who 
 
 * The user only has 1x input field to interact with. The user will enter all the names of the people who have entered the game separated by a comma. 
 
-`<input id="names" type="text" class="form-control" placeholder="Enter names here" aria-label="Names" aria-describedby="basic-addon1" required>`
+`<input id="names" type="text" class="form-control" placeholder="Enter names here" aria-label="names" aria-describedby="names" required>`
 
 * Once all the names have been entered the user presses the add names to draw button and the JavaScript will then randomly draw and display the name fo the person who is paying the bill. 
 
@@ -150,7 +149,7 @@ Whose paying the bill is a just for fun mini JavaScript project where users who 
 
 #### **2.3 Result**
 
-* The result of who is going to pay the bill is displayed to the user in a `<h2>` element. That `<h2>` element is left blank and its content is generated and displayed when the user adds the names and completes the draw. There is also a cheeky message saying better luck next time. 
+* The result of who is going to pay the bill is displayed to the user in a `<p>` element. That `<p>` element is left blank and its content is generated and displayed when the user adds the names and completes the draw. There is also a cheeky message saying better luck next time. 
 
 ![Image of result](assets/images/readme_images/draw_result.png)
 
