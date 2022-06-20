@@ -239,17 +239,14 @@ Cloning a repository using the command line
 #### **5.3 Cloning Desktop**
 You can also clone the project using Github Desktop. To do this you can do the following: 
 
-1. Download Github Desktop if you do not already have it installed. The link can be found here [Github Desktop](https://desktop.github.com/)
-2. Sign in to GitHub and GitHub Desktop before you start to clone.
-3. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Whose_Paying_The_Bill
-4. Click on the tab that says <details >code 
-5. Above the files, click the button that says &#8595;code
+1. On github navigate to the project repository. The link can be found here: https://github.com/smcgdub/Whose_Paying_The_Bill
+2. Click on the tab that says code 
+3. Above the files, click the button that says &#8595;code
 
 ![Github code button](assets/images/readme_images/github_code_button.png)
 
-6. Click open with GitHub Desktop to clone and open the repository with GitHub Desktop.
-7. Click Choose... and, using the Finder window, navigate to a local path where you want to clone the repository.
-8. Click clone 
+6. Click on Download ZIP.
+7. Unzip the repository after it downloads to your machine and then drag the unzipped files into your IDE.
 
 </details>
 
