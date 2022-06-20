@@ -17,12 +17,11 @@ Whose paying the bill is a just for fun mini JavaScript project where users who 
   * 1.6 Wire frames
 
 ### **2. Features**
-  * 2.1 The Navbar
-  * 2.2 User Inputs
-  * 2.3 Action Buttons
-  * 2.4 Bill Breakdown
-  * 2.5 Footer
-  * 2.6 Features Left To Implement
+  * 2.1 User Inputs
+  * 2.2 Action Buttons
+  * 2.3 Result
+  * 2.4 Footer
+  * 2.5 Features Left To Implement
 
 ### **3. Technologies/Languages Used**
   * 3.1 VSCode
@@ -31,10 +30,9 @@ Whose paying the bill is a just for fun mini JavaScript project where users who 
   * 3.4 JavaScript
   * 3.5 Bootstrap
   * 3.6 Google fonts 
-  * 3.7 Icons8
-  * 3.8 Balsamiq
-  * 3.9 Animate.css
-  * 3.10 favicon.io
+  * 3.7 Balsamiq
+  * 3.8 Animate.css
+  * 3.9 favicon.io
 
 ### **4. Testing**
   * 4.1 See [testing.md](testing.md) document 
@@ -179,10 +177,9 @@ Whose paying the bill is a just for fun mini JavaScript project where users who 
 3.4 [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - JavaScript was used to do the mathematics to give the user the full breakdown<br>
 3.5 [Bootstrap](https://getbootstrap.com/) - Bootstrap is the most popular CSS Framework for developing responsive and mobile-first websites. Bootstrap 5 is the version i used for the development of this project.<br>
 3.6 [Google fonts](https://fonts.google.com/) - Launched in 2010 Google Fonts is a library of 1,023 free licensed font families.<br>
-3.7 [Icons8](https://icons8.com/) - You can see a short YouTube video about Icons8 by clicking [Here](https://www.youtube.com/watch?v=C4TcBmdaa-Q&t=40s).<br>
-3.8 [Balsamiq](https://balsamiq.com/)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.<br>
-3.9 [Animate.css](https://animate.style/) - Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.<br>
-3.10 [favicon.io](https://favicon.io/) - Favicon.io is the free favicon generator i used for the project
+3.7 [Balsamiq](https://balsamiq.com/)- Balsamiq Wireframes is a rapid low-fidelity UI wireframing tool that reproduces the experience of sketching on a notepad or whiteboard.<br>
+3.8 [Animate.css](https://animate.style/) - Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.<br>
+3.9 [favicon.io](https://favicon.io/) - Favicon.io is the free favicon generator i used for the project
 </details>
 
 <hr>
@@ -227,12 +224,12 @@ Cloning a repository using the command line
 2. Click on the tab that says < >code 
 3. Above the files, click the button that says &#8595;code
 
-![Github code button](assets/images/github-code-button.png)
+![Github code button](assets/images/readme_images/github_code_button.png)
 
 4. From the menu select HTTPS
 5. Click on the clipboard icon on the right hand side (Image below)
 
-![Github copy link button](assets/images/github-clipboard.png)
+![Github copy link button](assets/images/readme_images/github-clipboard.png)
 
 6. Open the terminal in your IDE
 7. Change the current working directory to the location where you want the cloned directory.
@@ -248,7 +245,7 @@ You can also clone the project using Github Desktop. To do this you can do the f
 4. Click on the tab that says <details >code 
 5. Above the files, click the button that says &#8595;code
 
-![Github code button](assets/images/github-code-button.png)
+![Github code button](assets/images/readme_images/github_code_button.png)
 
 6. Click open with GitHub Desktop to clone and open the repository with GitHub Desktop.
 7. Click Choose... and, using the Finder window, navigate to a local path where you want to clone the repository.
@@ -264,7 +261,6 @@ You can also clone the project using Github Desktop. To do this you can do the f
 
 #### **6.1 Media** 
 
- * Some of the icons i used for the project were from Icons8. All credit for these icons goes to [Icons8](https://icons8.com/)
 * Background image on the homepage credit goes to [Steve Harvey](https://unsplash.com/@trommelkopf) Link to the image can be found [Here](https://unsplash.com/photos/U4wcrDteZ2Y)
 
 #### **6.2 Code** 
